@@ -1,0 +1,24 @@
+$light-dark: #212121;
+$base-color: #181818;
+$primary-color: #1abc9c;
+// $secondary-color:
+
+// background: linear-gradient(180deg,#181818 0,#222 100%);
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  min-height: 100vh;
+  background-color: $base-color;
+}
