@@ -1,4 +1,5 @@
 import React from "react";
+import Menu from "../Menu";
 
 const Navbar = () => {
   return (
@@ -21,7 +22,13 @@ const Navbar = () => {
         <li className="mh3">/</li>
         <li>nytro04@gmail.com</li>
       </ul>
+<<<<<<< HEAD
       <span>menu bar</span>
+>>>>>>> develop
+=======
+      <span>
+        <Menu />
+      </span>
 >>>>>>> develop
     </nav>
   );
