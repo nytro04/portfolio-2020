@@ -27,7 +27,7 @@ const Menu = () => {
         </li>
       </ul>
       <button onClick={toggle} className="toggle">
-        {isOpened} cool
+        {isOpened}
       </button>
     </div>
   );
