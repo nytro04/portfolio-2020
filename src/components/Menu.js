@@ -26,7 +26,10 @@ const Menu = () => {
           <Link to="Home">contact</Link>
         </li>
       </ul>
-      <button onClick={toggle} className="toggle">
+      <button
+        onClick={toggle}
+        className={isOpened ? "toggle active" : "toggle curtain"}
+      >
         {isOpened}
       </button>
     </div>
